@@ -1,0 +1,57 @@
+body {
+     background-image: url("file:///C:/Users/tia/Desktop/WEBPROGRAMMING/fr.jpg");
+     background-color: #cccccc;
+	 font-family: sans-serif;
+	 font-size:20px;
+} 
+
+p::first-letter {
+    color: #B8860B ;
+	font-family: cursive;
+	font-size: xx-large;
+}
+
+*{
+	color:black;
+}
+a:link {
+    color: red;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+	border: 0;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #9932CC}
+
+tr:nth-child(odd){background-color: #00FFFF}
+
+th {
+    background-color: #FF00FF;
+    color: black;
+}
+
+h1{
+	
+	text-align:center;
+}
+
+h4{
+	color: #DC143C;
+	font-family: cursive;
+}
